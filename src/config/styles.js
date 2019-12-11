@@ -1,13 +1,13 @@
 const AppStyles = {
     colors: {
-        accentColor: '#0084ff',
+        accentColor: '#3F1D75',
         inactiveGreyColor: '#626262',
         lightGreyCOlor: '#7f8c8d',
         separator: '#bdc3c7',
         white: 'white',
         black: 'black',
         grey: 'grey',
-        green: 'green',
+        green: '#4AB153',
         onlineGreen: '#2ecc71',
         lightWhite: '#f9f9f9'
     },

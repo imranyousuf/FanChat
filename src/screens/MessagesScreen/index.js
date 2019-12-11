@@ -20,9 +20,10 @@ export default class MessagesScreen extends Component {
                 <Button
                     icon="add-a-photo"
                     mode="contained"
+                    color='#3F1D75'
                     onPress={() => this.props.navigation.navigate('ChatScreen')}
                 >
-                    Press me
+                    Add Experience!
                 </Button>
             </View>
         );

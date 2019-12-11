@@ -25,7 +25,7 @@ export const HomeTabNavigation = createMaterialTopTabNavigator(
         },
         CallsScreen: {
             screen: CallsScreen,
-            navigationOptions: { header: null, title: 'Calls' }
+            navigationOptions: { header: null, title: 'Votes' }
         }
     },
     {
