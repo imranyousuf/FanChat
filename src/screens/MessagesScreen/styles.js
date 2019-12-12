@@ -4,8 +4,12 @@ import AppStyles from 'src/config/styles';
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: AppStyles.colors.lightWhite
+        justifyContent: 'center',
+        backgroundColor: AppStyles.colors.lightWhite,
+        color: '#4AB153'
     }
+
+
 });
 
 export default styles;

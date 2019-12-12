@@ -8,7 +8,7 @@ const AppStyles = {
         black: 'black',
         grey: 'grey',
         green: '#4AB153',
-        onlineGreen: '#2ecc71',
+        onlineGreen: '#EF6192',
         lightWhite: '#f9f9f9'
     },
     fonts: {

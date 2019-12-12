@@ -14,10 +14,10 @@ const HomeTabIcon = ({ tintColor }) => (
     <TabIcon name="home" tintColor={tintColor} />
 );
 const PeopleTabIcon = ({ tintColor }) => (
-    <TabIcon name="supervisor-account" tintColor={tintColor} />
+    <TabIcon name="supervisor-account" tintColor={tintColor}  />
 );
 const CameraTabIcon = ({ tintColor }) => (
-    <TabIcon name="photo-camera" tintColor={tintColor} type="rounded" />
+    <TabIcon name="photo-camera" tintColor={tintColor} type="rounded" color="#3F1D75"/>
 );
 const GamesTabIcon = ({ tintColor }) => (
     <TabIcon name="game-controller" tintColor={tintColor} type="entypo" />

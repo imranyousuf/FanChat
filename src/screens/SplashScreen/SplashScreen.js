@@ -40,10 +40,10 @@ export default class SplashScreen extends Component {
     render() {
         return (
             <SafeAreaView style={styles.container}>
-                <Button raised color="#0084ff" onPress={this.onPress}>
-                    CONTINUE AS IMRAN
+                <Button raised color="#3F1D75" onPress={this.onPress}>
+                    CONTINUE AS IMRAN YOUSUF
                 </Button>
-                <LoginButton
+                {/* <LoginButton
                     readPermissions={['public_profile', 'email']}
                     onLoginFinished={(error, result) => {
                         if (error) {
@@ -61,7 +61,7 @@ export default class SplashScreen extends Component {
                         }
                     }}
                     onLogoutFinished={() => console.log('logout.')}
-                />
+                /> */}
             </SafeAreaView>
         );
     }
