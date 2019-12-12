@@ -88,7 +88,7 @@ export default class SearchHeader extends Component {
                         >
                             <Text style={styles.btnText}>Search</Text>
                         </TouchableOpacity>
-                        <Appbar.Action icon="face" onPress={this._onSearch} />
+                        <Appbar.Action icon="face" color="#3F1D75" onPress={this._onSearch} />
                     </Appbar.Header>
                 )}
             </View>

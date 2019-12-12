@@ -17,13 +17,13 @@ const PeopleTabIcon = ({ tintColor }) => (
     <TabIcon name="supervisor-account" tintColor={tintColor}  />
 );
 const CameraTabIcon = ({ tintColor }) => (
-    <TabIcon name="photo-camera" tintColor={tintColor} type="rounded" color="#3F1D75"/>
+    <TabIcon name="photo-camera" tintColor={tintColor} type="rounded" />
 );
 const GamesTabIcon = ({ tintColor }) => (
     <TabIcon name="game-controller" tintColor={tintColor} type="entypo" />
 );
 const PopularTabIcon = ({ tintColor }) => (
-    <TabIcon name="toys" tintColor={tintColor} />
+    <TabIcon name="line-chart" tintColor={tintColor} />
 );
 
 export const BottomTabNavigation = createBottomTabNavigator(
@@ -71,7 +71,7 @@ export const BottomTabNavigation = createBottomTabNavigator(
     {
         tabBarOptions: {
             showLabel: false,
-            activeTintColor: '#0084ff',
+            activeTintColor: '#EF1D75',
             inactiveTintColor: AppStyles.colors.inactiveGreyColor,
             pressColor: '#7f8c8d'
         }

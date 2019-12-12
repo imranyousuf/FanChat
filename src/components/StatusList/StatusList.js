@@ -20,7 +20,7 @@ export default class componentName extends Component {
                 <View style={styles.headSub}>
                     <Icon name="photo-camera" size={32} color="white" />
                     <View style={styles.absoluteView}>
-                        <Icon name="add-circle" size={16} color="#0084ff" />
+                        <Icon name="add-circle" size={16} color="#EF6192" />
                     </View>
                 </View>
 
